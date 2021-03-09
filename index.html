@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+      <ul>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#skills">SKILLS</a></li>
+        <li><a href="#works">WORKS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+    <header class="header" id="home">
+      <div class="wrapper_title"><h1>HI, I'M JULIANA<br>FRONT-END DEVELOPER</h1></div>
+    </header>
+    <div class="bg_hero"></div>
+    <div class="wrapper_content">
+  <section class="container padding_top">
+    <div class="wrapper_tecnologias_logos">
+      <div><img src="./assets/logos_tecnologies/html_logo.png" alt=""></div>
+      <div><img src="./assets/logos_tecnologies/css3_logo.png" alt=""></div>
+      <div><img src="./assets/logos_tecnologies/js_logo.png" alt=""></div>
+      <div><img src="./assets/logos_tecnologies/react_logo.png" alt=""></div>
+      <div><img src="./assets/logos_tecnologies/angular-_logo.png" alt=""></div>
+      <div><img src="./assets/logos_tecnologies/sass_logo.png" alt=""></div>
+      <p>...</p>
+    </div>
+  </section>
+  <!--ABOUT-->
+  <section id="about" class="container padding_top padding_botton wrapper_about">
+    <h2>ABOUT</h2>
+    <div class="wrapper_about_content boxFlex">
+      <img src="./assets/img/juli_circulo.png" class="picture_juli"alt=""/>
+      <div class="content_about ">
+        <div class="linea_horizontal" ></div>
+          <p id="experience_info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+              Inventore debitis aut quidem dolores id sequi assumenda architecto, 
+              soluta quas numquam dolorem magni, 
+              temporibus tenetur, esse totam rerum facere a rem.
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+              Inventore debitis aut quidem dolores id sequi assumenda architecto, 
+              soluta quas numquam dolorem magni, 
+              temporibus tenetur, esse totam rerum facere a rem.
+              Inventore debitis aut quidem dolores id sequi assumenda architecto, 
+              soluta quas numquam dolorem magni, 
+              temporibus tenetur, esse totam rerum facere a rem.
+            </p>
+            <div class="primary_btn" onclick="verEstudios()">Certifications</div>
+            <div id="studies_container" class="studies_container hidde">
+                <ul>
+                  <li><img src="./assets/img/checkbox.svg" width="30px" alt=""><p>FRONT-END Bootcamp</p></li>
+                  <li><img src="./assets/img/checkbox.svg" width="30px" alt=""><p>Web Developer Certification</p></li>
+                  <li><img src="./assets/img/checkbox.svg" width="30px" alt=""><p>Javascript Certification</p></li>
+                  <li><img src="./assets/img/checkbox.svg" width="30px" alt=""><p>UX & Web Design Master</p></li>
+                  <li><img src="./assets/img/checkbox.svg" width="30px" alt=""><p>Google Web Designer</p></li>
+                  <li><img src="./assets/img/checkbox.svg" width="30px" alt=""><p>Graphic Design (FP)</p></li>
+                  <li><img src="./assets/img/checkbox.svg" width="30px" alt=""><p>English (B2)</p></li>
+                  <div class="primary_btn" onclick="verEstudios()"><span>Regresar</div>
+                </ul>
+
+            </div>
+      </div>
+    </div>
+  </section>
+  <!--SKILLS-->
+  <section id="skills" class="full_container padding_top padding_botton">
+    <div class="container wrapper_skills">
+      <h2>SKILLS</h2>
+      <div class="wrapper_cards boxFlex_column padding_top">
+      <div class="linea_horizontal"></div>
+      <div class="boxFlex container_cards">
+        <!--HTML-->
+        <div class="card">
+          <div class="box">
+            <div class="percent">
+              <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+              </svg>
+              <div class='number'>
+                <h2>70<span>%</span></h2>
+              </div>
+            </div>
+            <h3 class="text">html5</h3>
+          </div>
+        </div>
+        <!--CSS-->
+        <div class="card">
+          <div class="box">
+            <div class="percent">
+              <svg>
+                <circle cx="70" cy="70" r="70" class="blue_circle" ></circle>
+              </svg>
+              <div class='number'>
+                <h2>80<span>%</span></h2>
+              </div>
+            </div>
+            <h3 class="text">CSS 3</h3>
+          </div>
+        </div>
+        <!--JAVASCRIPT-->
+        <div class="card">
+          <div class="box">
+            <div class="percent">
+              <svg>
+                <circle cx="70" cy="70" r="70" class="orchid_circle"></circle>
+              </svg>
+              <div class='number'>
+                <h2>70<span>%</span></h2>
+              </div>
+            </div>
+            <h3 class="text">JAVASCRIPT</h3>
+          </div>
+        </div>
+        <!--REACT-->
+        <div class="card">
+          <div class="box">
+            <div class="percent">
+              <svg>
+                <circle cx="70" cy="70" r="70" class="gold_circle"></circle>
+              </svg>
+              <div class='number'>
+                <h2>60<span>%</span></h2>
+              </div>
+            </div>
+            <h3 class="text">REACT</h3>
+          </div>
+        </div>
+      </div>
+      <div class="boxFlex container_cards">
+        <!--ANGULAR-->
+        <div class="card">
+          <div class="box">
+            <div class="percent">
+              <svg>
+                <circle cx="70" cy="70" r="70" class="gold_circle"></circle>
+              </svg>
+              <div class='number'>
+                <h2>70<span>%</span></h2>
+              </div>
+            </div>
+            <h3 class="text">ANGULAR</h3>
+          </div>
+        </div>
+        <!--JQUERY-->
+        <div class="card">
+          <div class="box">
+            <div class="percent">
+              <svg>
+                <circle cx="70" cy="70" r="70" class="orchid_circle"></circle>
+              </svg>
+              <div class='number'>
+                <h2>70<span>%</span></h2>
+              </div>
+            </div>
+            <h3 class="text">JQUERY</h3>
+          </div>
+        </div>
+        <!--SCSS-->
+        <div class="card">
+          <div class="box">
+            <div class="percent">
+              <svg>
+                <circle cx="70" cy="70" r="70" class="blue_circle"></circle>
+              </svg>
+              <div class='number'>
+                <h2>75<span>%</span></h2>
+              </div>
+            </div>
+            <h3 class="text">SASS</h3>
+          </div>
+        </div>
+        <!--BOOTSTRAP-->
+        <div class="card">
+          <div class="box">
+            <div class="percent">
+              <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+              </svg>
+              <div class='number'>
+                <h2>80<span>%</span></h2>
+              </div>
+            </div>
+            <h3 class="text">BOOTSTRAP 4</h3>
+          </div>
+        </div>
+      </div>
+      <div class="boxFlex container_cards">
+        <!--GIT-->
+        <div class="card">
+          <div class="box">
+            <div class="percent">
+              <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+              </svg>
+              <div class='number'>
+                <h2>70<span>%</span></h2>
+              </div>
+            </div>
+            <h3 class="text">GIT</h3>
+          </div>
+        </div>
+        <!--XD-->
+        <div class="card">
+          <div class="box">
+            <div class="percent">
+              <svg>
+                <circle cx="70" cy="70" r="70" class="blue_circle"></circle>
+              </svg>
+              <div class='number'>
+                <h2>60<span>%</span></h2>
+              </div>
+            </div>
+            <h3 class="text">ADOBE XD</h3>
+          </div>
+        </div>
+        <!--SKETCH-->
+        <div class="card">
+          <div class="box">
+            <div class="percent">
+              <svg>
+                <circle cx="70" cy="70" r="70" class="orchid_circle"></circle>
+              </svg>
+              <div class='number'>
+                <h2>70<span>%</span></h2>
+              </div>
+            </div>
+            <h3 class="text">SKETCH</h3>
+          </div>
+        </div>
+        <!--PHOTOSHOP-->
+        <div class="card">
+          <div class="box">
+            <div class="percent">
+              <svg>
+                <circle cx="70" cy="70" r="70" class="gold_circle"></circle>
+              </svg>
+              <div class='number'>
+                <h2>70<span>%</span></h2>
+              </div>
+            </div>
+            <h3 class="text">PHOTOSHOP</h3>
+          </div>
+        </div>
+      </div>
+      
+      </div>
+    </div>
+  </section>
+  <!--WORKS-->
+  <section id="works" class="full_container padding_top padding_botton">
+    <div class="container wrapper_skills">
+      <h2>WORKS</h2>
+      <div class="wrapper_cards boxFlex_column padding_top">
+      <div class="linea_horizontal"></div>
+      <div class="boxFlex container_cards">
+        <!--ONE-->
+        <div class="card_work">
+          <img src="./assets/img/work/one.jpg" alt="">
+          <div><a href="https://ekeiendom.no/" target="_blanck">www.<strong>ekeiendom</strong>.com</a></div>
+        </div>
+        <!--TWO-->
+        <div class="card_work">
+          <img src="./assets/img/work/two.jpg" alt="">
+          <div><a href="http://dantescoalfiredpizza.com/" target="_blanck">www.<strong>dantescoalfiredpizza</strong>.com</a></div>
+        </div>
+        <!--THREE-->
+        <div class="card_work">
+          <img src="./assets/img/work/three.jpg" alt="">
+          <div><a href="https://cielo-sanibel.com/" target="_blanck">www.<strong>CieloII</strong>.com</a></div>
+        </div>
+      </div>
+      <div class="boxFlex container_cards">
+        <!--ONE-->
+        <div class="card_work">
+          <img src="./assets/img/work/four.jpg" alt="">
+          <div><a href="https://www.docfords.com/ft-myers-beach/" target="_blanck">www.<strong>docfords</strong>.com</a></div>
+        </div>
+        <!--TWO-->
+        <div class="card_work">
+          <img src="./assets/img/work/five.jpg" alt="">
+          <div><a href="https://carmencita.com/" target="_blanck">www.<strong>carmencita</strong>.com</a></div>
+        </div>
+        <!--THREE-->
+        <div class="card_work">
+          <img src="./assets/img/work/six.jpg" alt="">
+          <div><a href="https://www.youtube.com/watch?v=fH-dm8iJ7Oo" target="_blanck">www.<strong>zigisoft</strong>.com</a></div>
+        </div>
+      </div>
+      <div class="boxFlex container_cards">
+        <!--ONE-->
+        <div class="card_work">
+          <img src="./assets/img/work/seven.jpg" alt="">
+          <div><a href="https://nervousnellies.net/index.php" target="_blanck">www.<strong>nervousnellies</strong>.com</a></div>
+        </div>
+        <!--TWO-->
+        <div class="card_work">
+          <img src="./assets/img/work/eight.jpg" alt="">
+          <div><a href="https://www.youtube.com/watch?v=Zp2rtl7pUiE" target="_blanck">www.<strong>ieloapp</strong>.com</a></div>
+        </div>
+        <!--THREE-->
+        <div class="card_work">
+          <img src="./assets/img/work/nine.jpg" alt="">
+          <div><a href="http://sierrasalud.com/" target="_blanck">www.<strong>sierrasalud</strong>.com</a></div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+  <!--CONTACT-->
+  <section id="contact" class="full_container padding_top padding_botton">
+    <div class="container wrapper_skills">
+      <h2>CONTACT</h2>
+      <div class="wrapper_cards boxFlex_column padding_top">
+      <div class="linea_horizontal"></div>
+      <div class="wrapper_info_contact boxFlex">
+        <div class="boxFlex_column social_container">
+          <p>Email : julitreedesign@gmail.com</p>
+          <p>Phone : +34 617 1439 83</p>
+          <div class="social_container boxFlex">
+            <a href="https://www.linkedin.com/in/juliana-gonzalez-b348a0196/" target="_blank"><img src="./assets/img/linkedin-logo.png" alt="" width="60px"></a>
+            <a href="https://gitlab.com/Julitree" target="_blank"><img src="./assets/img/gitaLab.jpg" alt="" width="100px"></a>
+            <a href="https://github.com/Julitree" target="_blank"><img src="./assets/img/GitHub-Logo.jpg" alt="" width="100px"></a>
+          </div>
+        </div>
+        <form class="boxFlex_column">
+          <input type="text" placeholder="Name" >
+          <input type="email" placeholder="Email">
+          <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+          <input type="submit" value="SEND">
+        </form>
+      </div>
+      </div>
+    </div>
+  </section>
+  <footer class="boxFlex">
+        <p><i>Made by Juliana Gonzalez 2021</i></p>
+  </footer>
+  
+  </div>
+   <script src="index.js"></script>
+  </body>
+</body>
+</html>
