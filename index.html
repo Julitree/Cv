@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+       <!--JQUERY-->
+       <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
@@ -40,17 +45,14 @@
       <img src="./assets/img/juli_circulo.png" class="picture_juli"alt=""/>
       <div class="content_about ">
         <div class="linea_horizontal" ></div>
-          <p id="experience_info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-              Inventore debitis aut quidem dolores id sequi assumenda architecto, 
-              soluta quas numquam dolorem magni, 
-              temporibus tenetur, esse totam rerum facere a rem.
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-              Inventore debitis aut quidem dolores id sequi assumenda architecto, 
-              soluta quas numquam dolorem magni, 
-              temporibus tenetur, esse totam rerum facere a rem.
-              Inventore debitis aut quidem dolores id sequi assumenda architecto, 
-              soluta quas numquam dolorem magni, 
-              temporibus tenetur, esse totam rerum facere a rem.
+          <p id="experience_info">Over 6 years of professional building quality websites and applications with HTML, CSS, and Javascript.
+            Strong knowledge of SASS and LESS (CSS3 pre-processor).
+            Experience in Responsive Web Design using Media Queries as well as Twitter Bootstrap
+            In-depth knowledge of W3C standards
+            Capable of learning quickly alone and in a team-based environment
+            An understanding of SEM standards 
+            Experience with Photoshop 
+            Great ability to write clear, maintainable, well-documented, well-commented and efficient code for web development 
             </p>
             <div class="primary_btn" onclick="verEstudios()">Certifications</div>
             <div id="studies_container" class="studies_container hidde">
@@ -342,9 +344,15 @@
   <footer class="boxFlex">
         <p><i>Made by Juliana Gonzalez 2021</i></p>
   </footer>
-  
+  <div class="flecha_arriba" id="flecha_arriba">⇡</div>
   </div>
+  <script src="js/jquery-1.10.1.min.js" type="text/javascript" charset="utf-8"></script>
    <script src="index.js"></script>
+   <script>
+    function on() {
+      document.getElementById("overlay").style.display = "block";
+    }
+    </script>
   </body>
-</body>
+
 </html>
