@@ -463,3 +463,17 @@ footer{
 footer p{
   font-size: 15px;
 }
+
+.flecha_arriba {
+  display: flex;
+  background-color: #00BCD4;
+  width: 67px;
+  justify-content: center;
+  padding: 20px 10px;
+  color: #fff;
+  font-size: 1.5rem;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+}
